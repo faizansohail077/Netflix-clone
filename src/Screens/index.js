@@ -10,14 +10,14 @@ const HomeScreen = () => {
             <Navbar />
 
             <Banner />
-            <Rows title='Netflix Originals' fetchURL={requests.fetchNetflixOriginals} isLargeRow='' />
-            <Rows title='Trending Now' fetchURL={requests.fetchTrending} />
-            <Rows title='Top Rated' fetchURL={requests.fetchTopRated} />
-            <Rows title='Action Movies' fetchURL={requests.fetchActionMovies} />
-            <Rows title='Romance Movie' fetchURL={requests.fetchRomanceMovies} />
-            <Rows title='Documantories' fetchURL={requests.fetchDocumentaries} />
-            <Rows title='Horror Movie' fetchURL={requests.fetchHorrorMovies} />
-            <Rows title='Comedy Movie' fetchURL={requests.fetchComedyMovies} />
+            <Rows title='Netflix Originals' fetchURL={requests.fetchNetflixOriginals} isLargeRow={true} />
+            <Rows title='Trending Now' fetchURL={requests.fetchTrending} isLargeRow={false} />
+            <Rows title='Top Rated' fetchURL={requests.fetchTopRated} isLargeRow={false}/>
+            <Rows title='Action Movies' fetchURL={requests.fetchActionMovies} isLargeRow={false}/>
+            <Rows title='Romance Movie' fetchURL={requests.fetchRomanceMovies} isLargeRow={false}/>
+            <Rows title='Documantories' fetchURL={requests.fetchDocumentaries} isLargeRow={false}/>
+            <Rows title='Horror Movie' fetchURL={requests.fetchHorrorMovies} isLargeRow={false}/>
+            <Rows title='Comedy Movie' fetchURL={requests.fetchComedyMovies} isLargeRow={false}/>
         </div>
     )
 }
