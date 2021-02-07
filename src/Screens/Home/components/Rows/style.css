@@ -1,6 +1,7 @@
 .row {
 	color: whitesmoke;
-	margin-left: 20px;
+	padding-left: 20px;	
+	background-color: black;
 }
 
 .row__posters {

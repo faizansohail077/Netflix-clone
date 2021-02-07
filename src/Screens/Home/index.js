@@ -1,9 +1,8 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import requests from '../Request'
+import Navbar from '../../components/Navbar'
+import requests from '../../Request'
 import Banner from './components/Banner'
 import Rows from './components/Rows'
-import './style.css'
 const HomeScreen = () => {
     return (
         <div>

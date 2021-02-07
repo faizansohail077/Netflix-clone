@@ -4,6 +4,7 @@
 	position: relative;
 	object-fit: contain;
 	color: white;
+	background-color: black;
 }
 
 .banner__content {
